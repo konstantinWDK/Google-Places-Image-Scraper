@@ -25,7 +25,7 @@ Obtener clave API de Google Places:
 
 Estructura del repositorio:
     scrap-images.py         # Script principal
-    galerias.txt            # Términos a buscar (uno por línea)
+    nombres-sitios.txt            # Términos a buscar (uno por línea)
     google_api_key.txt      # Clave API (no incluir en el repositorio)
     .gitignore              # Archivos a ignorar
 
@@ -36,7 +36,7 @@ Uso del script:
 2) Ejecutar con opciones:
        python scrap-images.py \
          --api-key-file google_api_key.txt \
-         --list-file galerias.txt \
+         --list-file nombres-sitios.txt \
          --output-dir imagenes_salida \
          --max-photos 2 \
          --min-delay 0.5 \
@@ -47,7 +47,7 @@ Uso del script:
 
 Argumentos disponibles y valores por defecto:
 - --api-key-file      google_api_key.txt
-- --list-file         galerias.txt
+- --list-file         nombres-sitios.txt
 - --output-dir        imagenes_gplaces
 - --max-photos        1
 - --min-delay         0.5
