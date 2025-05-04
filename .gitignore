@@ -1,0 +1,5 @@
+# Ignorar clave de API
+google_api_key.txt
+
+# Ignorar carpeta de imágenes descargadas
+imagenes_gplaces/
